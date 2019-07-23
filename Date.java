@@ -35,18 +35,18 @@ public class Date{
 		}
 		return other;
 	}
-	/*public Date before(int seconds){
+	public Date before(int seconds){
 		Date other=new Date(hour,minute,second);
 		other.second-=seconds;
 		while(other.second<0){
 			other.second+=60;
-			minute--;
+			other.minute--;
 		if(other.minute<0){
 			other.minute+=60;
 			other.hour--;
 		}
-		if(hour<0){
-			hour=23;
+		if(other.hour<0){
+			other.hour=23;
 		}}
 		return other;
 	}*/
